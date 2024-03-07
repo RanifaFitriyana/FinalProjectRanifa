@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Project</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+
+<body class="bg-blue-950">
+  <div class="flex items-center justify-center mt-5">
+    <span class="border-y-2 text-white border-blue-500 py-2 pl-2 text-3xl font-medium rounded-tl-2xl">POKE</span>
+    <span class="border-y-2 text-blue-200 border-blue-500 py-2 pr-2 text-3xl font-medium rounded-br-3xl ">MON</span>
+  </div>
+
+        <div id="listPokemon" class="mt-11 grid grid-cols-1 md:grid-cols-3 md:px-16 lg:grid-cols-4 lg:w-9/12 lg:mx-auto lg:px-0  gap-6 px-5  ">
+        <template id="data">
+          <div class="hover:z-10 md:hover:-translate-y- lg:hover:scale-105 transition-all ease-in-out flex justify-center items-center flex-col border bg-white rounded-md shadow-xl mb-4"> 
+            <img src="" alt="" class="w-100 h-82">
+            <h3 class="my-1 font-bold text-lg text-blue-950"></h3>
+            <p class="mt-2 text-center font-bold text-lg text-blue-900">( <span id="abiliti"></span> )</p>
+            <p class="font-medium text-lg mb-3 text-blue-800">Type : <span id="tipe"></span></p>
+          </div>
+        </template>
+      </div>
+
+      <script src="script.js"></script>
+
+     
+</body>
+</html> 
